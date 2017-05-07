@@ -1,13 +1,3 @@
-<<<<<<< HEAD
-# define ATOM_LENGTH 16
-# define NULL_ATOM "oudhn9s8afhwq34"
-
-// An atom is the building block of a Scheme token.
-// Atoms are any token without () in it.
-struct atom {
-    char *a;
-};
-=======
 #ifndef TOKENS_H_INCLUDED
 #define TOKENS_H_INCLUDED
 
@@ -28,4 +18,3 @@ void wipe(t_tree *t);
 t_tree *tokenize(char *scheme);
 
 #endif // TOKENS_H_INCLUDED
->>>>>>> stacks etc

@@ -1,10 +1,3 @@
-<<<<<<< HEAD
-#include <stdio.h>
-
-void err(char *msg) {
-    printf(msg);
-}
-=======
 #ifndef UTIL_H_INCLUDED
 #define UTIL_H_INCLUDED
 
@@ -37,4 +30,3 @@ s_queue *toqueue(char *string);
 void err(char *msg, char *scheme);
 
 #endif // UTIL_H_INCLUDED
->>>>>>> stacks etc
